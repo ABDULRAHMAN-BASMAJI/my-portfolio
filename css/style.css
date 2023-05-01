@@ -634,7 +634,7 @@ span {
   right: 0;
   width: 100%;
   height: 100%;
-  background: yellowgreen;
+  
   z-index: 98;
 }
 .animate.home-image {
@@ -769,6 +769,7 @@ span {
 }
 
 @media (max-width: 371px) {
+  
   .home {
     justify-content: center;
   }
@@ -778,9 +779,13 @@ span {
     flex-direction: column;
     text-align: center;
   }
-
   .home-content h1 {
     font-size: 5rem;
+  }
+}
+@media (max-width: 321px)  {
+  .home-content h1 {
+    font-size: 2rem;
   }
 }
 
